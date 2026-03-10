@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBH Barbershop | Samer Bou Hamdan</title>
+    <link rel="stylesheet" href="a.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.jpg.jpeg" alt="SBH Logo" class="main-logo"> <div class="brand-text">
+                <span class="shop-name">SBH</span>
+                <span class="owner-name">by Samer Bou Hamdan</span>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>The Ultimate Experience</h1>
+            <p>The difference between a good haircut & a great one is about two weeks.</p>
+            <a href="#booking" class="cta-button">Book an Appointment</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>Quality • Professionalism • Experience • VIP Service</h2>
+        <p class="description">At SBH, we don't just cut hair; we craft styles. Step into a world of precision where tradition meets modern luxury, ensuring every client leaves looking and feeling like a VIP.</p>
+    </section>
+
+    <section class="services-trigger">
+        <div class="divider"></div>
+        <h3>Ready for a new look?</h3>
+        <a href="services.html" class="outline-btn">View Our Services</a>
+    </section>
+
+    <section id="booking" class="booking-section">
+    <div class="booking-grid">
+        <div class="contact-box">
+            <h3>Visit the Shop</h3>
+            <p><strong>Phone:</strong> <a href="tel:+961 76831969">+961 76831969</a></p>
+            <p><strong>Location:</strong> Jdaide Al-Shouf, Lebanon</p>
+            <div class="hours-box">
+                <h4>Opening Hours:</h4>
+                <p><strong>Tues - Saturday:</strong> 10:30 AM - 8:00 PM</p>
+                <p><strong>Sunday:</strong> 10:30 AM - 4:00 PM</p>
+                <p><strong>Monday:</strong> Closed</p>
+            </div>
+        </div>
+        
+        <div class="form-box">
+            <div class="calendar-header">
+                <h3>Schedule Your Session</h3>
+                <p>Select your preferred date and time</p>
+            </div>
+            
+            <form action="https://api.sheetmonkey.io/form/777jb1ymWTTM3Bc6VyDd94" method="POST">
+        
+        <input type="text" name="Client Name" placeholder="Full Name" required>
+        
+        <select name="Service Selection" class="service-select" required>
+            <option value="" disabled selected>Select Service Type</option>
+            <optgroup label="Haircuts">
+                <option value="Haircut w/ Beard">Haircut with Beard - 15$</option>
+                <option value="Haircut no Beard">Haircut without Beard - 12$</option>
+                <option value="Beard Trim">Beard Trim - 10$</option>
+                <option value="VIP Service">VIP Service - 25$</option>
+                <option value="Kids Haircut">Kids Haircut - 10$</option>
+                <option value="Trimming">Trimming - 4$</option>
+            </optgroup>
+            <optgroup label="Massage">
+                <option value="30 Min Massage">30 Minutes Massage - 15$</option>
+                <option value="1 Hour Massage">1 Hour Massage - 30$</option>
+            </optgroup>
+        </select>
+
+        <div class="form-row">
+            <div class="input-group">
+                <label>Date</label>
+                <input type="date" name="Appointment Date" required>
+            </div>
+            <div class="input-group">
+                <label>Time</label>
+                <input type="time" name="Appointment Time" required>
+            </div>
+        </div>
+
+        <button type="submit" class="submit-btn">Confirm Booking</button>
+    </form>
+</div>
+
+    <footer>
+        <div class="feedback-container">
+            <h4>Rate Your Experience</h4>
+            <div class="stars">★★★★★</div>
+            <textarea placeholder="Leave a comment..."></textarea>
+            <button class="feedback-btn">Submit Feedback</button>
+        </div>
+        
+        <div class="footer-info">
+            <p>&copy; 2026 SBH Barbershop. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

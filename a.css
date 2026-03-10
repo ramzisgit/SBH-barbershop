@@ -1,0 +1,250 @@
+/* General Styling */
+:root {
+    --primary-color: #ffffff;
+    --bg-color: #000000;
+    --accent-color: #1a1a1a;
+    --text-muted: #a0a0a0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    line-height: 1.6;
+}
+
+/* Header & Logo */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+    border-bottom: 1px solid #ffffff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-logo {
+    height: 60px; /* Adjust based on your image */
+    filter: invert(1); /* Keeps the black logo white on dark background */
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2rem;
+    line-height: 1;
+}
+
+.owner-name {
+    font-size: 1rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: rgb(255, 248, 248);
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+nav ul li a:hover { color: var(--text-muted); }
+
+/* Hero */
+.hero {
+    padding: 100px 8%;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=2074') center/cover;
+}
+
+.hero h1 { font-size: 3.5rem; margin-bottom: 15px; }
+
+.cta-button {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+/* About Section */
+.about {
+    padding: 80px 15%;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: var(--text-muted);
+    font-weight: 300;
+}
+
+/* Service Button Section */
+.services-trigger {
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.outline-btn {
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* Booking Section */
+/* Enhanced Booking Section */
+.booking-section {
+    background: #bbbbbb;
+    padding: 100px 10%;
+    border-top: 1px solid #1e1e1e;
+}
+
+.calendar-header {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.calendar-header h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.calendar-header p {
+    color: var(--bg-color);
+    font-size: 1.1rem;
+}
+
+/* Service Dropdown Styling */
+.service-select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: #000000;
+    border: 1px solid #313131;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.service-select optgroup {
+    background: #000;
+    color: var(--text-muted);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+/* Matching the form inputs to the minimalist theme */
+form input[type="date"], 
+form input[type="time"] {
+    background: #111;
+    border: 1px solid #333;
+    color: white;
+    padding: 10px;
+}
+
+.submit-btn {
+    background: white !important;
+    color: black !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #cccccc !important;
+}
+
+.hours-box {
+    margin-top: 20px;
+    padding: 15px;
+    border: 5px solid #1a1a1a;
+    background: #050505;
+}
+/* Footer & Feedback */
+footer {
+    padding: 60px 8%;
+    border-top: 1px solid #222;
+}
+
+.feedback-container {
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.stars { color: #FFD700; font-size: 1.2rem; margin: 10px 0; }
+
+textarea {
+    width: 100%;
+    background: #111;
+    border: 1px solid #333;
+    color: white;
+    padding: 10px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.feedback-btn {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.social-links a { color: var(--text-muted); text-decoration: none; margin-left: 15px; }
