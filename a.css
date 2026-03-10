@@ -212,7 +212,7 @@ form input[type="time"] {
 /* Footer & Feedback */
 footer {
     padding: 60px 8%;
-    border-top: 1px solid #222;
+    border-top: 1px solid #00;
 }
 
 .feedback-container {
@@ -246,5 +246,6 @@ textarea {
     font-size: 0.8rem;
     color: var(--text-muted);
 }
+
 
 .social-links a { color: var(--text-muted); text-decoration: none; margin-left: 15px; }
