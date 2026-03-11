@@ -130,7 +130,7 @@ nav ul li a:hover { color: var(--text-muted); }
 .booking-section {
     background: #fffefe;
     padding: 100px 10%;
-    border-top: 5px solid #6f6f6f;
+    border-top: 10px solid #6f6f6f;
 }
 .booking-grid {
     color: var(--primary-color);
@@ -166,12 +166,13 @@ nav ul li a:hover { color: var(--text-muted); }
 
 .calendar-header h3 {
     font-family: 'Oswald', sans-serif;
+    color: var(--bg-color);
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .calendar-header p {
-    color: var(--bg-color);
+    color: var(--text-muted);
     font-size: 1.1rem;
 }
 
@@ -285,5 +286,6 @@ textarea {
 
 
 .social-links a { color: var(--text-muted); text-decoration: none; margin-left: 15px; }
+
 
 
