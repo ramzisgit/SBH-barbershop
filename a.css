@@ -217,8 +217,8 @@ form input[type="time"] {
 }
 
 .submit-btn {
-    background: white !important;
-    color: black !important;
+    background: black !important;
+    color: white !important;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 40px;
@@ -286,6 +286,7 @@ textarea {
 
 
 .social-links a { color: var(--text-muted); text-decoration: none; margin-left: 15px; }
+
 
 
 
