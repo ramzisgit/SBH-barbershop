@@ -25,7 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 40px 10%;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 8px solid #ffffff;
 }
 
 .logo-container {
@@ -130,7 +130,33 @@ nav ul li a:hover { color: var(--text-muted); }
 .booking-section {
     background: #bbbbbb;
     padding: 100px 10%;
-    border-top: 1px solid #1e1e1e;
+    border-top: 5px solid #6f6f6f;
+}
+.booking-grid {
+    color: var(--primary-color);
+}
+.contact-box h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-muted);
+    
+}
+.contact-box p {
+    color: var(--bg-color);
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+.hours-box h4 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+}
+.hours-box p {
+    color: var(--text-muted);
+    margin-top: 10px;
+    font-size: 1.1rem;
 }
 
 .calendar-header {
@@ -212,7 +238,7 @@ form input[type="time"] {
 /* Footer & Feedback */
 footer {
     padding: 60px 8%;
-    border-top: 1px solid #00;
+    border-top: 5px solid #00;
 }
 
 .feedback-container {
@@ -249,3 +275,4 @@ textarea {
 
 
 .social-links a { color: var(--text-muted); text-decoration: none; margin-left: 15px; }
+
