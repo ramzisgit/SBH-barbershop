@@ -128,7 +128,7 @@ nav ul li a:hover { color: var(--text-muted); }
 /* Booking Section */
 /* Enhanced Booking Section */
 .booking-section {
-    background: #bbbbbb;
+    background: #fffefe;
     padding: 100px 10%;
     border-top: 5px solid #6f6f6f;
 }
@@ -245,7 +245,12 @@ footer {
     max-width: 500px;
     margin-bottom: 50px;
 }
-
+.feedback-container h4{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--bg-color);
+}
 .stars { color: #FFD700; font-size: 1.2rem; margin: 10px 0; }
 
 textarea {
@@ -267,7 +272,12 @@ textarea {
 }
 
 .footer-info {
-    display: flex;
+    display: flex;.feedback-container h4{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--bg-color);
+}
     justify-content: space-between;
     font-size: 0.8rem;
     color: var(--text-muted);
@@ -275,4 +285,5 @@ textarea {
 
 
 .social-links a { color: var(--text-muted); text-decoration: none; margin-left: 15px; }
+
 
